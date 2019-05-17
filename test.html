@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<script>
+var url = 'https://raw.githubusercontent.com/prakis/stringify.me/master/profile.json';	
+	/*
+$.getJSON(url, function(data) {
+  console.log("This is an example of a static JSON file being served by a web server.")
+  console.log(data);
+});*/
+
+var getJSON = function(url) {
+  return new Promise(function(resolve, reject) {
+    var xhr = new XMLHttpRequest();
+    xhr.open('get', url, true);
+    xhr.responseType = 'json';
+    xhr.onload = function() {
+      var status = xhr.status;
+      if (status == 200) {
+        resolve(xhr.response);
+      } else {
+        reject(status);
+      }
+    };
+    xhr.send();
+  });
+};
+
+getJSON(url).then(function(data) {
+    alert('Your Json result is:  ' + data.result); //you can comment this, i used it to debug
+
+    console.log("-->",data); //display the result in an HTML element
+}, function(status) { //error detection....
+  alert('Something went wrong.');
+});
+
+	</script>
+</head>
+<body>
+<div style="margin: 0 auto; width:100%; height:400px;">
+    <object type="text/html" data="https://raw.githack.com/prakis/stringify.me-theme/master/index.html"
+            style="width:100%; height:100%;">
+    </object>
+</div>
+</body>
+</html>
