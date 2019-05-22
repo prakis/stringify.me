@@ -19,6 +19,6 @@
       }
     ],
     "theme": {
-        url:"https://github.com/prakis/stringify.me-theme"
+        "url":"https://github.com/prakis/stringify.me-theme"
     }
 }
