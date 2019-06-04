@@ -8,11 +8,11 @@
 		"website": "https://reactdude.com/",
 		"twitter": "https://twitter.com/prakis",
 		"facebook": "https://www.facebook.com/Stringify.me",
-		"dribbble": "https://www.dribbble.com",
 		"github": "http://github.com/prakis",
 		"summary": "I play different roles like System Architect, Developer, Designer, IndieHacker, Batman, Developer!"
 	},
 	"theme": {
-		"url": "https://github.com/prakis/stringify.me-theme-card2"
+		"url": "https://github.com/prakis/stringify.me-theme",
+		"background" :"#f98008"
 	}
 }
