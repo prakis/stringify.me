@@ -1,6 +1,6 @@
 {
 	"basics": {
-		"name": "Krishna Kishore",
+		"name": "Kishore",
 		"label": "Architect",
 		"picture": "profile.jpg",
 		"email": "prakis@gmail.com",
@@ -9,8 +9,8 @@
 		"twitter": "https://twitter.com/prakis",
 		"facebook": "https://www.facebook.com/Stringify.me",
 		"github": "http://github.com/prakis",
-		"summary": "I play different roles like System Architect, Developer, Designer, IndieHacker, Batman, Developer!"
 	},
+		"summary": "I work as consultant with expertise in web (<b>ReactJS</b>, <b>NodeJS</b>), desktop (<b>C#</b>, <b>JavaFX</b>) apps. I have over 14 years experience in software development and 2 years in Nanotechnology."
 	"theme": {
 		"url": "https://github.com/prakis/stringify.me-theme",
 		"background" :"#f98008"
