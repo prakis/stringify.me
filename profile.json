@@ -1,0 +1,18 @@
+{
+	"basics": {
+		"name": "Jon",
+		"label": "What?",
+		"picture": "profile.jpg",
+		"email": "j@osmond.cc",
+	
+		"website": "http://jonosmond.com/",
+		"twitter": "https://twitter.com/osmond",
+		
+		"github": "http://github.com/osmond",
+		"summary": "I work on web."
+	},
+	"theme": {
+		"url": "https://github.com/prakis/stringify.me-theme",
+		"background" :"#f98008"
+	}
+}
